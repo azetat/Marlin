@@ -25,6 +25,8 @@ CHANGES = [
     # --- Configuration.h: Allgemein ---
     (C, "STRING_CONFIG_H_AUTHOR", "set", '"(VolkmarB, Ender-3_58)"', False),
     (C, "SHOW_BOOTSCREEN", "off", None, False),
+    (C, "SHOW_CUSTOM_BOOTSCREEN", "off", None, False),
+    (C, "CUSTOM_STATUS_SCREEN_IMAGE", "off", None, False),
     (C, "CUSTOM_MACHINE_NAME", "set", '"Ender-3_58"', False),
     (C, "SERIAL_PORT", "set", "2", False),
     (C, "SERIAL_PORT_2", "set", "-1", False),

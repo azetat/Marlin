@@ -9,6 +9,7 @@ Repo: github.com/azetat/Marlin, Branch `ender3_58` · Werkzeug: `ender3_58_tools
 |---|---|---|---|---|
 | Info | STRING_CONFIG_H_AUTHOR | gleich | "(thisiskeithb, Ender-3)" | "(VolkmarB, Ender-3_58)" |
 | Info | SHOW_BOOTSCREEN | gleich | an | aus |
+| Info | SHOW_CUSTOM_BOOTSCREEN / CUSTOM_STATUS_SCREEN_IMAGE | gleich | an | aus |
 | Info | CUSTOM_MACHINE_NAME | gleich | "Ender-3" | "Ender-3_58" |
 | Serial | SERIAL_PORT / SERIAL_PORT_2 / BAUDRATE | gleich | 2 / -1 / 115200 | 2 / -1 / 115200 (unverändert) |
 | Temperatur | BED_MAXTEMP | gleich | 125 | 90 |
