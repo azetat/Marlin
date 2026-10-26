@@ -159,6 +159,9 @@ CHANGES = [
     (A, "HOST_ACTION_COMMANDS", "on", None, False),
     (A, "HOST_PAUSE_M76", "on", None, False),
     (A, "HOST_PROMPT_SUPPORT", "on", None, False),
+    # --- Verbesserungen 2.1.2.9 ---
+    (C, "RESTORE_LEVELING_AFTER_G28", "on", None, False),  # M1
+    (A, "STEALTHCHOP_E", "off", None, False),  # M3 (Linear Advance)
 ]
 
 # Nur pruefen und berichten (nicht aendern)

@@ -106,6 +106,15 @@ Repo: github.com/azetat/Marlin, Branch `ender3_58` · Werkzeug: `ender3_58_tools
 
 | Option | 2.0.9.2 | 2.1.2.9 Vorlage |
 |---|---|---|
-| BLOCK_BUFFER_SIZE | 16 | 8 |
+| BLOCK_BUFFER_SIZE | 16 | 16 wirksam (8 nur bei DIRECT_STEPPING) – keine Änderung nötig |
 | BLTOUCH_HS_MODE | aus | aus |
 | ARC_SUPPORT, INPUT_SHAPING, MEATPACK | aus | aus |
+
+## Verbesserungen nach Migration (2.1.2.9)
+
+| Nr | Option | Datei | Vorlage | Ender-3_58 | Grund |
+|---|---|---|---|---|---|
+| M1 | RESTORE_LEVELING_AFTER_G28 | Configuration.h | aus | an | Mesh bleibt nach G28 aktiv |
+| M2 | BLOCK_BUFFER_SIZE | Configuration_adv.h | 16 | 16 | entfällt, bereits 16 |
+| M3 | STEALTHCHOP_E | Configuration_adv.h | an | aus | Voraussetzung Linear Advance |
+
