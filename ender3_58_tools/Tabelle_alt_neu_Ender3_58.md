@@ -117,4 +117,6 @@ Repo: github.com/azetat/Marlin, Branch `ender3_58` · Werkzeug: `ender3_58_tools
 | M1 | RESTORE_LEVELING_AFTER_G28 | Configuration.h | aus | an | Mesh bleibt nach G28 aktiv |
 | M2 | BLOCK_BUFFER_SIZE | Configuration_adv.h | 16 | 16 | entfällt, bereits 16 |
 | M3 | STEALTHCHOP_E | Configuration_adv.h | an | aus | Voraussetzung Linear Advance |
-
+| M4 | INPUT_SHAPING_X / _Y | Configuration_adv.h | aus | an (40 Hz, Zeta 0.15 – noch kalibrieren) | weniger Ringing |
+| M4 | SHAPING_MIN_FREQ | Configuration_adv.h | aus (= 40) | 20.0 | Kalibrierung per M593 auch < 40 Hz |
+| M4 | SHAPING_MENU | Configuration_adv.h | aus | an | Werte am Display einstellbar |

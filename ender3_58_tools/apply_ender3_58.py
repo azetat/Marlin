@@ -162,6 +162,10 @@ CHANGES = [
     # --- Verbesserungen 2.1.2.9 ---
     (C, "RESTORE_LEVELING_AFTER_G28", "on", None, False),  # M1
     (A, "STEALTHCHOP_E", "off", None, False),  # M3 (Linear Advance)
+    (A, "INPUT_SHAPING_X", "on", None, False),  # M4
+    (A, "INPUT_SHAPING_Y", "on", None, False),  # M4
+    (A, "SHAPING_MIN_FREQ", "set", "20.0", False),  # M4
+    (A, "SHAPING_MENU", "on", None, False),  # M4
 ]
 
 # Nur pruefen und berichten (nicht aendern)
