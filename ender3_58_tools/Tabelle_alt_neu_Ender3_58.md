@@ -120,3 +120,7 @@ Repo: github.com/azetat/Marlin, Branch `ender3_58` · Werkzeug: `ender3_58_tools
 | M4 | INPUT_SHAPING_X / _Y | Configuration_adv.h | aus | an (40 Hz, Zeta 0.15 – noch kalibrieren) | weniger Ringing |
 | M4 | SHAPING_MIN_FREQ | Configuration_adv.h | aus (= 40) | 20.0 | Kalibrierung per M593 auch < 40 Hz |
 | M4 | SHAPING_MENU | Configuration_adv.h | aus | an | Werte am Display einstellbar |
+| B | SET_REMAINING_TIME | Configuration_adv.h | aus | an | Restzeit per M73 R (Plugin M73 Progress) |
+| B | SHOW_REMAINING_TIME | Configuration_adv.h | aus | an | Display zeigt Restzeit |
+| B | SHOW_ELAPSED_TIME | Configuration_adv.h | an | aus | keine Laufzeit mehr |
+| B | SHOW_PROGRESS_PERCENT | Configuration_adv.h | an | aus | kein Wechsel im Zeitfeld, Balken bleibt |

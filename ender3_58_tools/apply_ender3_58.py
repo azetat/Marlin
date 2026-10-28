@@ -166,6 +166,11 @@ CHANGES = [
     (A, "INPUT_SHAPING_Y", "on", None, False),  # M4
     (A, "SHAPING_MIN_FREQ", "set", "20.0", False),  # M4
     (A, "SHAPING_MENU", "on", None, False),  # M4
+    # --- Display: Restzeit statt Laufzeit (M73 R vom Plugin M73 Progress) ---
+    (A, "SET_REMAINING_TIME", "on", None, False),  # B
+    (A, "SHOW_REMAINING_TIME", "on", None, False),  # B
+    (A, "SHOW_ELAPSED_TIME", "off", None, False),  # B
+    (A, "SHOW_PROGRESS_PERCENT", "off", None, False),  # B
 ]
 
 # Nur pruefen und berichten (nicht aendern)
